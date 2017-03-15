@@ -1,0 +1,151 @@
+.nav{
+
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:10px;
+    text-align:center;
+    word-spacing: 10px;
+    background-color:#800000;
+
+}
+.nav li{
+    display:inline;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.nav a:hover{
+  color: #2defd5;
+}
+
+
+.nav a{
+  padding:10px;
+  text-decoration: none;
+  position: relative;
+  color: white;
+}
+
+
+
+
+.nav a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #2defd5;
+  transition: 0.4s;
+
+}
+
+a:hover:after {
+
+  width: 100%;
+}
+
+
+.logocenter{
+  text-align: center;
+}
+
+.space{
+  padding: 10px 10px 10px 10px;
+  background-color: orange;
+}
+
+iframe {
+  width: 600px;
+  height: 450px;
+  border: 0;
+}
+
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.3em;
+  text-align: center;
+  padding: 5px;
+}
+
+
+
+body {
+
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.boxcolor{background-color: #9def86;}
+.ltblue{background-color: #F496AA;}
+.lav{background-color: lavender;}
+
+.info{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+}
+
+.citizen{
+  color:#aa0f0f;
+}
+
+.navigation{
+list-style: none;
+}
+
+.goloan{
+  font-family: 'Playfair Display', serif;
+}
+
+.footer {
+  clear: left;
+  bottom:0;
+
+  width:100%;
+  background-color:#494c4b;
+  color:white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+	}
+
+
+  .box {
+
+    display: block;
+    float: left;
+    margin: -1px 0 0 -1px;
+    color: black;
+    background: linear-gradient(
+       white, white 50%, #fc7c2d 50%, #9adb51
+    );
+    background-size: 100% 202%;
+    transition: all 0.2s ease;
+    animation: down-bump 0.4s ease;
+  }
+
+  .box:hover {
+    background-position: 40% 40%;
+    animation: up-bump 0.4s ease;
+  }
+  .box:hover h2 {
+    color: #f77e33;
+  }
+  .box:hover h2 span {
+    color: white;
+  }
+  .box:hover h4 {
+    color: white;
+  }
+
+  @keyframes up-bump {
+    0% { padding-top: 0em; }
+    50% { padding-top: 0em; }
+    100% { padding-top: 0em; }
+  }
+  @keyframes down-bump {
+    0% { padding-top: 0em; }
+    50% { padding-top: 0em; }
+    100% { padding-top: 0em; }
+  }

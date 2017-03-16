@@ -33,6 +33,12 @@ p {
   font-family: 'Graduate', cursive;
 }
 
+#letter10{
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
 
 #wrapper {
   height:10000px;
@@ -77,6 +83,17 @@ h1{
   padding-top: 10em;
   padding-left: 15em;
 
+}
+
+#letter3{
+  color:black;
+  text-align: center;
+  position:absolute;
+  z-index: 100;
+  font-size: 2em;
+  font-family: 'Candal', sans-serif;
+  padding-top: 10em;
+  padding-left: 15em;
 }
 
 #two{
@@ -143,7 +160,7 @@ font-size: 100px;
    height: 700px;
    top:0px;
    bottom: 0px;
-   margin-left: 1500px;
+   margin-left: 1340px;
 
 }
 
